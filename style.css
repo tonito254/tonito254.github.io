@@ -1,0 +1,77 @@
+    
+header {
+background-image: url("C:/Users/user/Desktop/Website Creation/cover 2.jpg");
+background-size: cover;
+background-position: center;
+text-align: center;
+padding: 13px;
+color: #fff;
+}
+
+nav {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.landing {
+  background-image: url(kibwezi\ sts.jpg);
+  opacity: 10;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #c8cdc2;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+.founders  {
+  background-color: rgba(90, 90, 214, 0.2);
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+}
+.founders img {
+  /* CSS properties for both image elements */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: #000;
+  border-radius: 10%;
+  border-color: aqua;
+}
+
+.founders img:hover {
+  transform: scale(1.2);
+  border-radius: 10%;
+  border-color: aqua;
+}
+

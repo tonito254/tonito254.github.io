@@ -1,0 +1,58 @@
+.history {
+    background-image: url("C:/Users/user/Desktop/Website Creation/cover.jpg");
+    animation: slideshow 12s infinite;
+    opacity: 10;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    flex-direction: column;
+    color: blue;
+margin-top: 0%;}
+
+
+.history li{
+    list-style: square;
+    color: #b70808;
+    stroke: aqua;
+    font-style: oblique;
+}
+
+.history h2 {
+    align-items: center;
+    color: #46339c;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+
+
+
+header {
+    background-image: url("C:/Users/user/Desktop/Website Creation/cover 2.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 13px;
+    color: #fff;
+  }
+  .landing {
+    background-image: url("C:|Users/user/Desktop/Website Creation/cover.jpg");
+    opacity: 10;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0d43d6;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  

@@ -1,0 +1,70 @@
+
+           header {
+    background-image: url("C:/Users/user/Desktop/Website Creation/cover 2.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 13px;
+    color: #fff;
+  }
+          
+        nav {
+            background-color :rgba(219, 219, 231, 0.1);
+            color: #fff;
+            padding: 10px;
+          }
+          nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+          }
+          
+          nav li {
+            display: inline-block;
+            margin-right: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+          
+          nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+          }
+          
+          nav a:hover {
+            background-color: #fff;
+            color: #333;
+          }
+        
+          .login-container {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            height: 50vh;
+           position: absolute;
+           top: 50px;
+           right: 1000px;
+          }
+          
+          .login-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+          }
+          
+          .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+          }
+      
+          .gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+          }
+      
